@@ -51,11 +51,11 @@ GEM
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
     rubyzip (1.2.2)
-    selenium-webdriver (2.53.4)
+    selenium-webdriver (3.14.1)
       childprocess (~> 0.5)
-      rubyzip (~> 1.0)
-      websocket (~> 1.0)
-    websocket (1.2.8)
+      rubyzip (~> 1.2, >= 1.2.2)
+    watir-webdriver (0.9.9)
+      selenium-webdriver (>= 2.46.2)
     xpath (3.1.0)
       nokogiri (~> 1.8)
 
@@ -66,7 +66,8 @@ DEPENDENCIES
   capybara (~> 2.7, >= 2.7.1)
   cucumber (~> 2.4)
   rspec (~> 3.5)
-  selenium-webdriver (~> 2.53, >= 2.53.4)
+  selenium-webdriver (~> 3.14, >= 3.14.1)
+  watir-webdriver (~> 0.9.1)
 
 BUNDLED WITH
    1.16.4
